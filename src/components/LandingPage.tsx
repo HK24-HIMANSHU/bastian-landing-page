@@ -41,13 +41,13 @@ export default function LandingPage(){
                     </ul>
                 </div>
                 <div className="landing__contact_info">
-                    <div className="landing__contact_info-card flex flex-col justify-between w-80 p-4 rotate-2 shadow-lg shadow-gray-800/10 rounded-md h-50 bg-[#262627]">
+                    <div className="landing__contact_info-card flex flex-col justify-between w-90 p-4 rotate-1 shadow-lg shadow-gray-800/10 rounded-md h-50 bg-[#262627]">
                         <div className="landing-pg flex justify-between items-start">
                             <div className="wrap flex items-center gap-1">
                                 <EarthLock strokeWidth={1} className="text-[#ffffffa3]" size={16}/>
                                 <p className="text-[#ffffffa3] text-sm">bastian</p>
                             </div>
-                            <img className="rounded-md rotate-2" src={profileImg} width={80} height={80}/>
+                            <img className="rounded-md rotate-1" src={profileImg} width={80} height={80}/>
                         </div>
                         <div className="wrap flex flex-col">
                             <p className='text-[#ffffffa3] text-sm'>Email</p>
