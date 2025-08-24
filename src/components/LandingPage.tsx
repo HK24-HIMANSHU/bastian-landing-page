@@ -41,7 +41,7 @@ export default function LandingPage(){
                     </ul>
                 </div>
                 <div className="landing__contact_info">
-                    <div className="landing__contact_info-card flex flex-col justify-between w-100 p-4 rotate-2 shadow-lg shadow-gray-800/10 rounded-md h-50 bg-[#262627]">
+                    <div className="landing__contact_info-card flex flex-col justify-between w-80 p-4 rotate-2 shadow-lg shadow-gray-800/10 rounded-md h-50 bg-[#262627]">
                         <div className="landing-pg flex justify-between items-start">
                             <div className="wrap flex items-center gap-1">
                                 <EarthLock strokeWidth={1} className="text-[#ffffffa3]" size={16}/>
