@@ -47,7 +47,7 @@ export default function LandingPage(){
                                 <EarthLock strokeWidth={1} className="text-[#ffffffa3]" size={16}/>
                                 <p className="text-[#ffffffa3] text-sm">bastian</p>
                             </div>
-                            <img className="rounded-md rotate-1" src={profileImg} width={80} height={80}/>
+                            <img className="rounded-md -rotate-1" src={profileImg} width={80} height={80}/>
                         </div>
                         <div className="wrap flex flex-col">
                             <p className='text-[#ffffffa3] text-sm'>Email</p>
