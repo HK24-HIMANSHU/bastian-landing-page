@@ -16,12 +16,12 @@ export default function LandingPage(){
                     <p className="description">Your VS Code extension for spotting API keys, unsafe patterns & bad code in real time.</p>
                 </div>
                 <div className="landing__cta flex flex-row gap-2">
-                    <Button className="rounded-md px-5 py-2 font-medium bg-green-700 text-white hover:bg-green-600 hover:cursor-pointer">
+                    <Button onClick={()=>window.open('https://marketplace.visualstudio.com/items?itemName=HimanshuKumar.bastian')} className="rounded-md px-5 py-2 font-medium bg-green-700 text-white hover:bg-green-600 hover:cursor-pointer">
                         Download VS code extension
                     </Button>
-                    <Button className="rounded-md px-5 py-2 font-medium bg-neutral-800 text-white hover:bg-neutral-700 hover:cursor-pointer">
-                        <Github />
-                    </Button>
+                        <Button onClick={()=>window.open('https://github.com/HK24-HIMANSHU/LintShield')} className="rounded-md px-5 py-2 font-medium bg-neutral-800 text-white hover:bg-neutral-700 hover:cursor-pointer">
+                            <Github />
+                        </Button>
                 </div>
                 <div className="landing__terminal__wrap my-10">
                     <TerminalComp/>
